@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <nav class="navbar d-flex position-fixed w-100 z-3">
+      <div class="container d-flex justify-content-between">
+        <div class="d-flex justify-content-center align-items-center">
+          <a class="navbar-brand homeLogo fw-bold fs-1" href="#">
+            <i class="fa-solid fa-fan fs-1 me-2 logo-flower"></i>
+            Tulips
+          </a>
+
+          <div class="mt-4 mx-3 navlinks">
+            <ul class="list-unstyled d-flex">
+              <li class="mx-3 fw-semibold">
+                <a class="nav-link" href="#">Flowers</a>
+              </li>
+              <li class="mx-3 fw-semibold">
+                <a class="nav-link" href="#">Catalogue</a>
+              </li>
+              <li class="mx-3 fw-semibold">
+                <a class="nav-link" href="#">Store</a>
+              </li>
+              <li class="mx-3 fw-semibold">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <a href="#" class="nav-link me-4">
+            <i class="fa-regular fa-user fs-5"></i>
+          </a>
+          <a href="#" class="nav-link"
+            ><span class="fw-bold mx-1">$0.00</span>
+            <i class="fa-solid fa-shop fs-5"></i
+          ></a>
+          <button id="logoutBtn" class="ms-3 border-0 btn btn-primary">Logout</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="tulips-page vh-100 d-flex align-items-center">
+      <div class="container d-flex justify-content-between px-5">
+        <div class="header-content me-5">
+          <div>
+            <h2>Read tulips</h2>
+            <h1 class="mt-2 mb-3">Bouquet For Someone Special</h1>
+            <p class="tulips-desc">
+              Red tulips are most strongly associated with true love, while
+              purple symbolizes royalty.
+            </p>
+          </div>
+
+          <div class="rating d-flex align-items-center pt-3">
+            <p class="me-3">
+              <i class="fa-solid fa-star star"></i>
+              <i class="fa-solid fa-star star"></i>
+              <i class="fa-solid fa-star star"></i>
+              <i class="fa-solid fa-star star"></i>
+              <i class="fa-solid fa-star-half-stroke star"></i>
+            </p>
+
+            <p>204 Review</p>
+          </div>
+
+          <div class="price d-flex align-items-center justify-content-between">
+            <p class="fs-2 mt-3">$62.99 <span>8 Uints Tulips</span></p>
+            <button class="btn border-0 fw-semibold text-uppercase py-3 me-4">
+              Add to cart
+            </button>
+          </div>
+        </div>
+
+        <figure
+          class="d-flex position-relative justify-content-center align-items-center"
+        >
+          <img
+            src="./imgs/cb00195e-ce6f-464c-8cb6-fb5e00cbd8fe.jpg"
+            class="rounded-2 ms-5"
+            alt=""
+          />
+        </figure>
+      </div>
+    </header>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/logout.js"></script>
+  </body>
+</html>

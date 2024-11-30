@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sign Up</title>
+  </head>
+
+  <body>
+    <section class="login-form">
+      <div class="container-fluid p-0 d-flex vh-100">
+        <div class="background vh-100 d-flex justify-content-start"></div>
+
+        <div
+          class="login-inner text-center bg-white d-flex flex-column align align-items-center justify-content-center py-5"
+        >
+          <h1 class="">Smart Login System</h1>
+
+          <input
+            id="name"
+            class="form-control mx-3 my-3 w-50"
+            type="text"
+            placeholder="Enter your name"
+          />
+          <input
+            id="email"
+            class="form-control mx-3 my-3 w-50"
+            type="email"
+            placeholder="Enter your email"
+          />
+          <input
+            id="password"
+            class="form-control mx-3 my-3 w-50"
+            type="password"
+            placeholder="Enter your password"
+          />
+          <p id="signupErrMsg" class="d-none text-danger my-2">All inputs is required!</p>
+          <p id="existMsg" class="d-none text-danger my-2">Account already exists-_-</p>
+          <p id="successMsg" class="d-none text-success my-2">Success^^</p>
+
+          <button class="btn btn-primary my-3 rounded-pill w-25" id="signUp">
+            Sign Up
+          </button>
+
+          <p class="">
+            You have an account?
+            <a href="./index.html" target="_blank"> Signin </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/sign up.js"></script>
+  </body>
+</html>

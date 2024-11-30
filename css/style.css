@@ -1,0 +1,107 @@
+:root {
+  --main-font: "Send Flowers", cursive;
+  --mainText-color: #415a77;
+  --secText-color: #1b263b;
+  --bg-color: #bac4d6;
+}
+
+.login-inner {
+  width: 40%;
+}
+
+.login-inner h1 {
+  font-family: var(--main-font);
+  font-weight: 600;
+}
+
+.background {
+  width: 60%;
+  background-image: url(.././imgs/pexels-theglory-77669-302588.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Home */
+nav {
+  background-color: var(--bg-color);
+}
+
+.homeLogo {
+  color: var(--secText-color);
+  font-family: var(--main-font);
+}
+
+.navlinks ul a,
+nav i,
+nav span {
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 0.9rem;
+  color: var(--secText-color);
+  transition: color 0.5s;
+}
+
+.navbar a {
+  transition: color 0.5s;
+}
+
+.navbar a:hover,
+i:hover,
+span:hover {
+  color: var(--mainText-color);
+}
+
+.tulips-page {
+  background-color: #e5daec;
+}
+
+.tulips-page h1 {
+  font-size: 3.5rem;
+  color: var(--secText-color);
+  font-family: "Libre Baskerville", serif;
+}
+
+.tulips-page h2 {
+  font-size: 1.3rem;
+  letter-spacing: -2px;
+  color: #8e9aaf;
+  text-transform: uppercase;
+}
+
+.tulips-page button {
+  background: linear-gradient(
+    90deg,
+    rgb(167, 181, 221) 0%,
+    rgba(178, 190, 250, 1) 100%,
+    rgba(188, 211, 217, 1) 100%
+  );
+  color: var(--secText-color);
+}
+
+.tulips-desc {
+  font-style: italic;
+  width: 70%;
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.tulips-page .star {
+  cursor: pointer;
+  color: rgb(212, 182, 12);
+}
+
+.tulips-page img {
+  width: 400px;
+}
+
+.price p, .rating{
+    font-family: "Libre Baskerville", serif;
+    color: var(--secText-color);
+}
+
+.price span{
+    font-size: small;
+}
